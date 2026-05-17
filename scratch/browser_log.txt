@@ -1,0 +1,1378 @@
+2026-05-15 10:47:29,737 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 10:47:29,739 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 10:47:40,439 - INFO - Attempting to open URL: https://www.youtubeandgithubtogether.com
+2026-05-15 10:47:40,439 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 10:47:40,439 - INFO - ====== WebDriver manager ======
+2026-05-15 10:47:42,727 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 10:47:43,336 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 10:47:44,977 - INFO - There is no [win64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+2026-05-15 10:47:44,977 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 10:47:46,554 - INFO - WebDriver version 148.0.7778.167 selected
+2026-05-15 10:47:46,563 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/win32/chromedriver-win32.zip
+2026-05-15 10:47:46,563 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/win32/chromedriver-win32.zip
+2026-05-15 10:48:06,501 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 10:48:06,501 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 10:58:35,723 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 10:58:35,723 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 10:58:46,339 - INFO - Attempting to open URL: https://www.google.com/search?q=machine%20learning
+2026-05-15 10:58:46,339 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 10:58:46,339 - INFO - ====== WebDriver manager ======
+2026-05-15 10:58:47,937 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 10:58:50,267 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 10:58:53,453 - INFO - There is no [win64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+2026-05-15 10:58:53,453 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 11:39:15,954 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 11:39:15,954 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 11:39:23,677 - INFO - Attempting to open URL: https://www.youtubeand.com
+2026-05-15 11:39:23,680 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 11:39:23,681 - INFO - ====== WebDriver manager ======
+2026-05-15 11:39:25,650 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 11:39:26,050 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 11:39:26,333 - INFO - There is no [win64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+2026-05-15 11:39:26,333 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 11:39:27,217 - INFO - WebDriver version 148.0.7778.167 selected
+2026-05-15 11:39:27,233 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/win32/chromedriver-win32.zip
+2026-05-15 11:39:27,233 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/win32/chromedriver-win32.zip
+2026-05-15 11:39:27,515 - INFO - Driver downloading response is 200
+2026-05-15 11:39:29,765 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 11:39:30,404 - INFO - Driver has been saved in cache [C:\Users\HP\.wdm\drivers\chromedriver\win64\148.0.7778.167]
+2026-05-15 11:39:34,829 - INFO - Chrome WebDriver initialized successfully.
+2026-05-15 11:39:36,553 - INFO - Opened URL in the initial window: https://www.youtubeand.com
+2026-05-15 11:42:02,368 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 11:42:02,368 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 11:48:12,389 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 11:48:12,389 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 11:48:19,937 - INFO - Attempting to open URL: https://www.linkedin.com
+2026-05-15 11:48:19,937 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 11:48:19,937 - INFO - ====== WebDriver manager ======
+2026-05-15 11:48:22,006 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 11:48:22,317 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 11:48:22,700 - INFO - Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache
+2026-05-15 11:48:25,341 - INFO - Chrome WebDriver initialized successfully.
+2026-05-15 11:48:28,647 - INFO - Opened URL in the initial window: https://www.linkedin.com
+2026-05-15 11:48:39,693 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-15 11:48:40,004 - INFO - Opened URL in new tab: https://www.instagram.com
+2026-05-15 12:07:22,104 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 12:07:22,104 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 12:07:32,986 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-15 12:07:32,987 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 12:07:32,988 - INFO - ====== WebDriver manager ======
+2026-05-15 12:07:34,832 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 12:07:35,268 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 12:07:35,493 - INFO - Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache
+2026-05-15 12:07:37,833 - INFO - Chrome WebDriver initialized successfully.
+2026-05-15 12:07:39,776 - INFO - Opened URL in the initial window: https://www.instagram.com
+2026-05-15 12:07:45,364 - INFO - Attempting to open URL: https://www.facebook.com
+2026-05-15 12:07:45,373 - WARNING - Browser was closed. Re-initializing WebDriver.
+2026-05-15 12:07:45,373 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 12:07:45,373 - INFO - ====== WebDriver manager ======
+2026-05-15 12:07:47,193 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 12:07:47,543 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 12:07:47,823 - INFO - Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache
+2026-05-15 12:07:49,396 - INFO - Chrome WebDriver initialized successfully.
+2026-05-15 12:07:51,608 - INFO - Opened URL in the initial window: https://www.facebook.com
+2026-05-15 12:08:02,405 - INFO - Opening YouTube search for query: 'youtube and  gate'
+2026-05-15 12:08:02,406 - WARNING - Browser was closed. Re-initializing WebDriver.
+2026-05-15 12:08:02,406 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 12:08:02,406 - INFO - ====== WebDriver manager ======
+2026-05-15 12:08:04,127 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 12:08:04,418 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 12:08:04,714 - INFO - Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache
+2026-05-15 12:08:06,415 - INFO - Chrome WebDriver initialized successfully.
+2026-05-15 12:08:15,948 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=youtube%20and%20%20gate
+2026-05-15 20:20:43,693 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 20:20:43,693 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 20:20:56,551 - INFO - Attempting to open URL: https://www.youtubeandsearchfor.com
+2026-05-15 20:20:56,551 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 20:20:56,551 - INFO - ====== WebDriver manager ======
+2026-05-15 20:20:59,539 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 20:20:59,854 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 20:21:00,065 - INFO - Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache
+2026-05-15 20:21:04,778 - INFO - Chrome WebDriver initialized successfully.
+2026-05-15 20:21:05,658 - ERROR - Error opening URL 'https://www.youtubeandsearchfor.com': Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=148.0.7778.168)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xb67123+10a23]
+	chromedriver!GetHandleVerifier [0xb67254+10b54]
+	chromedriver!(No symbol) [0x981e90]
+	chromedriver!(No symbol) [0x97f39e]
+	chromedriver!(No symbol) [0x972414]
+	chromedriver!(No symbol) [0x973e70]
+	chromedriver!(No symbol) [0x97289f]
+	chromedriver!(No symbol) [0x9721e5]
+	chromedriver!(No symbol) [0x971ee5]
+	chromedriver!(No symbol) [0x96fff8]
+	chromedriver!(No symbol) [0x97070a]
+	chromedriver!(No symbol) [0x98592e]
+	chromedriver!(No symbol) [0xa0b3a4]
+	chromedriver!(No symbol) [0x9ed78c]
+	chromedriver!(No symbol) [0xa0a936]
+	chromedriver!(No symbol) [0x9ed526]
+	chromedriver!(No symbol) [0x9c08f9]
+	chromedriver!(No symbol) [0x9c16b4]
+	chromedriver!GetHandleVerifier [0xe01ac4+2ab3c4]
+	chromedriver!GetHandleVerifier [0xdfd0ed+2a69ed]
+	chromedriver!GetHandleVerifier [0xe1e4f5+2c7df5]
+	chromedriver!GetHandleVerifier [0xb81128+2aa28]
+	chromedriver!GetHandleVerifier [0xb88bbd+324bd]
+	chromedriver!GetHandleVerifier [0xb6fb28+19428]
+	chromedriver!GetHandleVerifier [0xb6fcd5+195d5]
+	chromedriver!GetHandleVerifier [0xb591cf+2acf]
+	KERNEL32!BaseThreadInitThunk [0x7628fef9+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77ac7bbe+11e]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77ac7b8e+ee]
+
+2026-05-15 20:21:32,231 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-15 20:21:32,234 - WARNING - Browser was closed. Re-initializing WebDriver.
+2026-05-15 20:21:32,238 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 20:21:32,239 - INFO - ====== WebDriver manager ======
+2026-05-15 20:21:34,191 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 20:21:34,516 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 20:21:34,827 - INFO - Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache
+2026-05-15 20:21:36,542 - INFO - Chrome WebDriver initialized successfully.
+2026-05-15 20:21:38,405 - INFO - Opened URL in the initial window: https://www.instagram.com
+2026-05-15 20:21:44,692 - INFO - Attempting to open URL: https://www.nowgithub.com
+2026-05-15 20:21:44,888 - INFO - Opened URL in new tab: https://www.nowgithub.com
+2026-05-15 20:21:53,234 - INFO - Attempting to open URL: https://www.github.com
+2026-05-15 20:21:53,406 - INFO - Opened URL in new tab: https://www.github.com
+2026-05-15 20:22:06,027 - INFO - Attempting to open URL: https://www.linkedin.com
+2026-05-15 20:22:06,218 - INFO - Opened URL in new tab: https://www.linkedin.com
+2026-05-15 20:22:16,302 - INFO - Attempting to open URL: https://www.nowyoutubeandsearchforsongs.com
+2026-05-15 20:22:16,472 - INFO - Opened URL in new tab: https://www.nowyoutubeandsearchforsongs.com
+2026-05-15 20:31:40,820 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 20:31:40,822 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 20:32:31,263 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 20:32:31,263 - INFO - Initializing new Chrome WebDriver instance.
+2026-05-15 20:32:31,266 - INFO - ====== WebDriver manager ======
+2026-05-15 20:32:33,154 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 20:32:33,643 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-15 20:32:33,893 - INFO - Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32/chromedriver.exe] found in cache
+2026-05-15 20:32:35,886 - INFO - Chrome WebDriver initialized successfully.
+2026-05-15 20:32:43,128 - INFO - Opened URL in the initial window: https://www.youtube.com
+2026-05-15 20:32:50,506 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-15 20:32:50,673 - INFO - Opened URL in new tab: https://www.instagram.com
+2026-05-15 20:35:36,022 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 20:35:36,022 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 20:35:53,452 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 20:35:53,821 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-15 20:36:02,233 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-15 20:36:02,480 - INFO - Opened URL in default browser: https://www.instagram.com
+2026-05-15 20:36:21,119 - INFO - Attempting to open URL: https://www.linkedin.com
+2026-05-15 20:36:21,184 - INFO - Opened URL in default browser: https://www.linkedin.com
+2026-05-15 20:36:40,607 - INFO - Attempting to open URL: https://www.google.com
+2026-05-15 20:36:40,654 - INFO - Opened URL in default browser: https://www.google.com
+2026-05-15 20:38:22,713 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 20:38:22,716 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 20:43:10,234 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 20:43:10,234 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 20:43:22,327 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 20:43:22,654 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-15 20:43:24,984 - INFO - Attempting to open URL: https://www.google.com/search?q=songs
+2026-05-15 20:43:25,022 - INFO - Opened URL in default browser: https://www.google.com/search?q=songs
+2026-05-15 20:43:36,940 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 20:43:36,984 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-15 20:43:39,783 - INFO - Opening YouTube search for query: 'songs in the youtube'
+2026-05-15 20:43:39,813 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=songs%20in%20the%20youtube
+2026-05-15 20:48:23,233 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 20:48:23,234 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 20:52:49,126 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 20:52:49,126 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 20:53:47,854 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 20:53:48,316 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-15 20:54:22,442 - INFO - Attempting to open URL: https://www.google.com/search?q=songs
+2026-05-15 20:54:22,519 - INFO - Opened URL in default browser: https://www.google.com/search?q=songs
+2026-05-15 20:54:31,319 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 20:54:31,373 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-15 20:54:33,590 - INFO - Attempting to open URL: https://www.google.com/search?q=songs
+2026-05-15 20:54:33,626 - INFO - Opened URL in default browser: https://www.google.com/search?q=songs
+2026-05-15 20:54:47,250 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 20:54:47,296 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-15 20:54:50,063 - INFO - Opening YouTube search for query: 'songs in the youtube'
+2026-05-15 20:54:50,092 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=songs%20in%20the%20youtube
+2026-05-15 20:55:01,684 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 20:55:01,742 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-15 20:55:03,988 - INFO - Attempting to open URL: https://www.google.com/search?q=songs
+2026-05-15 20:55:04,017 - INFO - Opened URL in default browser: https://www.google.com/search?q=songs
+2026-05-15 20:56:50,389 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 20:56:50,389 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 20:57:03,213 - INFO - Attempting to open URL: https://www.google.com/search?q=news
+2026-05-15 20:57:03,766 - INFO - Opened URL in default browser: https://www.google.com/search?q=news
+2026-05-15 20:57:48,318 - INFO - Opening YouTube search for query: 'songs in the youtube'
+2026-05-15 20:57:48,381 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=songs%20in%20the%20youtube
+2026-05-15 20:58:02,112 - INFO - Opening YouTube search for query: 'games in the youtube'
+2026-05-15 20:58:02,177 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=games%20in%20the%20youtube
+2026-05-15 20:58:12,142 - INFO - Attempting to open URL: https://www.google.com/search?q=a%20re%20paper
+2026-05-15 20:58:12,213 - INFO - Opened URL in default browser: https://www.google.com/search?q=a%20re%20paper
+2026-05-15 20:59:11,031 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 20:59:11,033 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 21:12:32,867 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-15 21:12:32,868 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-15 21:13:05,127 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 21:13:05,422 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-15 21:13:55,234 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-15 21:13:55,293 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-15 21:16:05,516 - INFO - Attempting to open URL: https://www.google.com/search?q=find%20cat%20videos%20on
+2026-05-15 21:16:05,570 - INFO - Opened URL in default browser: https://www.google.com/search?q=find%20cat%20videos%20on
+2026-05-15 21:16:22,933 - INFO - Opening YouTube search for query: 'find cat videos  find cat videos'
+2026-05-15 21:16:23,004 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=find%20cat%20videos%20%20find%20cat%20videos
+2026-05-16 07:24:15,033 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:24:15,034 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:24:46,269 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:24:46,273 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:26:06,484 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:26:06,484 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:27:31,540 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:27:31,543 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:43:28,404 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:43:28,404 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:44:57,439 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:44:57,439 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:45:12,001 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 07:45:12,002 - ERROR - Error opening URL 'https://www.youtube.com': type object 'ChromeType' has no attribute 'CHROME'
+2026-05-16 07:47:57,663 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:47:57,663 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:48:08,092 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 07:48:08,092 - ERROR - Error opening URL 'https://www.youtube.com': type object 'ChromeType' has no attribute 'CHROME'
+2026-05-16 07:50:06,416 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:50:06,416 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:54:25,144 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:54:25,144 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:54:27,825 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 07:54:28,284 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-16 07:54:50,196 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:54:50,201 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:54:52,181 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 07:54:52,542 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-16 07:56:23,019 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 07:56:23,019 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 07:56:33,987 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 07:56:34,516 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-16 07:56:40,873 - INFO - Attempting to open URL: https://www.linkedin.com
+2026-05-16 07:56:40,914 - INFO - Opened URL in default browser: https://www.linkedin.com
+2026-05-16 07:57:19,786 - INFO - Opening YouTube search for query: 'games in the youtube'
+2026-05-16 07:57:19,884 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=games%20in%20the%20youtube
+2026-05-16 07:57:38,989 - INFO - Opening YouTube search for query: 's i n in the youtube'
+2026-05-16 07:57:39,022 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=s%20i%20n%20in%20the%20youtube
+2026-05-16 09:03:54,967 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 09:03:54,967 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 09:05:14,252 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 09:05:14,252 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 09:05:24,454 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 09:05:24,454 - ERROR - Error opening URL 'https://www.youtube.com': type object 'ChromeType' has no attribute 'CHROME'
+2026-05-16 09:23:33,882 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 09:23:33,882 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 09:25:53,272 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 09:25:53,272 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 09:27:49,719 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 09:27:49,719 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 09:28:22,742 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 09:28:44,140 - INFO - Started managed browser: chrome
+2026-05-16 09:28:44,451 - INFO - Opened URL in controlled browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 09:28:53,718 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 09:29:12,884 - INFO - Opened URL in controlled browser: https://www.youtube.com
+2026-05-16 09:30:21,383 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 09:30:21,680 - INFO - Opened URL in controlled browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 09:32:18,504 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 09:32:18,504 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 09:32:48,168 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 09:32:53,308 - INFO - Started managed browser: chrome
+2026-05-16 09:32:53,648 - INFO - Opened URL in controlled browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 09:33:05,254 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 09:33:21,607 - INFO - Opened URL in controlled browser: https://www.youtube.com
+2026-05-16 09:33:28,620 - INFO - Attempting to open URL: https://www.google.com
+2026-05-16 09:33:30,843 - INFO - Opened URL in controlled browser: https://www.google.com
+2026-05-16 09:33:39,563 - INFO - Attempting to open URL: https://www.google.com/search?q=call%20ai%20re
+2026-05-16 09:33:40,105 - INFO - Opened URL in controlled browser: https://www.google.com/search?q=call%20ai%20re
+2026-05-16 09:40:28,392 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 09:40:28,392 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 09:40:28,434 - INFO - server listening on 127.0.0.1:8765
+2026-05-16 09:40:28,439 - INFO - server listening on [::1]:8765
+2026-05-16 09:40:52,834 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 09:40:57,393 - INFO - Started managed browser: chrome
+2026-05-16 09:40:57,598 - INFO - connection open
+2026-05-16 09:40:57,729 - INFO - Opened URL in controlled browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 09:41:14,780 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 09:41:21,800 - INFO - connection open
+2026-05-16 09:41:21,863 - INFO - Opened URL in controlled browser: https://www.youtube.com
+2026-05-16 09:41:36,746 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 09:41:43,207 - INFO - Opened URL in controlled browser: https://www.youtube.com
+2026-05-16 09:43:52,445 - INFO - server listening on 127.0.0.1:8765
+2026-05-16 09:43:52,447 - INFO - server listening on [::1]:8765
+2026-05-16 09:43:52,477 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 09:43:52,479 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 10:35:20,064 - INFO - server listening on 127.0.0.1:8765
+2026-05-16 10:35:20,073 - INFO - server listening on [::1]:8765
+2026-05-16 10:35:20,105 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 10:35:20,105 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 10:35:41,345 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 10:35:49,086 - INFO - Started managed browser: chrome
+2026-05-16 10:35:49,182 - INFO - connection open
+2026-05-16 10:35:49,267 - INFO - Opened URL in controlled browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 10:36:07,036 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 10:36:11,891 - INFO - Opened URL in controlled browser: https://www.youtube.com
+2026-05-16 10:49:16,488 - INFO - server listening on [::1]:8765
+2026-05-16 10:49:16,488 - INFO - server listening on 127.0.0.1:8765
+2026-05-16 10:49:16,528 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 10:49:16,529 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 10:49:50,409 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 10:49:50,801 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 10:49:51,087 - INFO - connection open
+2026-05-16 10:50:02,245 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-16 10:50:02,362 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-16 10:51:44,725 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-16 10:51:44,801 - INFO - Opened URL in default browser: https://www.instagram.com
+2026-05-16 11:00:06,518 - INFO - server listening on 127.0.0.1:8765
+2026-05-16 11:00:06,522 - INFO - server listening on [::1]:8765
+2026-05-16 11:00:06,614 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-16 11:00:06,619 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-16 11:00:09,046 - INFO - connection open
+2026-05-16 11:00:43,473 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-16 11:00:44,184 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 11:41:37,594 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 11:41:37,617 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 11:42:03,506 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 11:42:03,847 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 11:53:02,064 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 11:53:02,065 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 11:53:33,002 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 11:53:33,242 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 11:53:47,730 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 11:53:47,838 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 11:54:40,448 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 11:54:40,691 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 11:54:54,892 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 11:54:54,988 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 11:58:15,399 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 11:58:15,400 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 11:58:30,319 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 11:58:30,516 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 11:58:43,740 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 11:58:43,846 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 12:01:38,012 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 12:01:38,013 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 12:01:43,110 - INFO - server listening on [::1]:8765
+2026-05-17 12:01:43,110 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 12:01:43,373 - INFO - connection open
+2026-05-17 12:01:43,388 - INFO - connection open
+2026-05-17 12:01:44,293 - INFO - connection open
+2026-05-17 12:01:46,107 - INFO - connection open
+2026-05-17 12:01:55,087 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 12:01:55,259 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 12:02:46,987 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 12:02:47,064 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 12:04:08,069 - INFO - server closing
+2026-05-17 12:04:08,083 - INFO - server closed
+2026-05-17 12:20:17,906 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 12:20:17,908 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 12:20:22,963 - INFO - server listening on [::1]:8765
+2026-05-17 12:20:22,963 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 12:20:23,170 - INFO - connection open
+2026-05-17 12:20:23,218 - INFO - connection open
+2026-05-17 12:20:29,150 - INFO - connection open
+2026-05-17 12:22:21,742 - INFO - server closing
+2026-05-17 12:22:21,751 - INFO - server closed
+2026-05-17 12:22:27,480 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 12:22:27,481 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 12:22:32,382 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 12:22:32,382 - INFO - server listening on [::1]:8765
+2026-05-17 12:22:32,436 - INFO - connection open
+2026-05-17 12:22:32,453 - INFO - connection open
+2026-05-17 12:22:32,454 - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-17 12:22:33,094 - INFO - connection open
+2026-05-17 12:22:35,089 - INFO - connection open
+2026-05-17 12:24:42,048 - INFO - connection open
+2026-05-17 12:24:43,814 - INFO - connection open
+2026-05-17 12:24:44,084 - INFO - connection open
+2026-05-17 12:24:44,204 - INFO - connection open
+2026-05-17 12:24:44,429 - INFO - connection open
+2026-05-17 12:25:19,868 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 12:25:19,972 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 12:25:37,663 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-17 12:25:37,718 - INFO - Opened URL in default browser: https://www.instagram.com
+2026-05-17 12:27:20,608 - INFO - server closing
+2026-05-17 12:27:20,612 - INFO - server closed
+2026-05-17 12:27:29,004 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 12:27:29,005 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 12:27:34,024 - INFO - server listening on [::1]:8765
+2026-05-17 12:27:34,025 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 12:27:34,163 - INFO - connection open
+2026-05-17 12:27:34,191 - INFO - connection open
+2026-05-17 12:27:34,192 - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-17 12:27:34,219 - INFO - connection open
+2026-05-17 12:27:35,626 - INFO - connection open
+2026-05-17 12:28:46,413 - INFO - server closing
+2026-05-17 12:28:46,420 - INFO - server closed
+2026-05-17 12:29:54,726 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 12:29:54,727 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 12:29:59,690 - INFO - server listening on [::1]:8765
+2026-05-17 12:29:59,691 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 12:29:59,964 - INFO - connection open
+2026-05-17 12:29:59,991 - INFO - connection open
+2026-05-17 12:30:00,008 - INFO - connection open
+2026-05-17 12:30:00,009 - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-05-17 12:30:00,935 - INFO - connection open
+2026-05-17 12:44:16,078 - INFO - connection open
+2026-05-17 12:44:16,151 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 12:44:16,151 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 19:02:16,841 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 19:02:16,842 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 19:02:25,695 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 19:02:25,695 - INFO - server listening on [::1]:8765
+2026-05-17 19:02:25,713 - INFO - connection open
+2026-05-17 19:02:26,320 - INFO - connection open
+2026-05-17 19:02:39,302 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 19:02:39,453 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 19:03:26,722 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-17 19:03:26,805 - INFO - Opened URL in default browser: https://www.instagram.com
+2026-05-17 19:06:42,020 - INFO - server closing
+2026-05-17 19:06:42,022 - INFO - server closed
+2026-05-17 19:07:56,657 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 19:07:56,658 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 19:08:01,835 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 19:08:01,836 - INFO - server listening on [::1]:8765
+2026-05-17 19:08:02,620 - INFO - connection open
+2026-05-17 19:08:33,599 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 19:08:33,717 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 19:09:53,315 - INFO - Attempting to open URL: https://www.google.com/search?q=games
+2026-05-17 19:09:53,399 - INFO - Opened URL in default browser: https://www.google.com/search?q=games
+2026-05-17 19:11:04,537 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-17 19:11:04,620 - INFO - Opened URL in default browser: https://www.instagram.com
+2026-05-17 19:12:52,064 - INFO - server closing
+2026-05-17 19:12:52,065 - INFO - server closed
+2026-05-17 19:19:15,533 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 19:19:15,534 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 19:19:20,311 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 19:19:20,312 - INFO - server listening on [::1]:8765
+2026-05-17 19:19:21,021 - INFO - connection open
+2026-05-17 19:19:33,719 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 19:19:33,813 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 19:20:07,583 - INFO - Opening YouTube search for query: 'games in youtube'
+2026-05-17 19:20:07,645 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=games%20in%20youtube
+2026-05-17 19:20:19,701 - INFO - Attempting to open URL: https://www.google.com/search?q=antigravity
+2026-05-17 19:20:19,767 - INFO - Opened URL in default browser: https://www.google.com/search?q=antigravity
+2026-05-17 19:20:30,693 - INFO - Attempting to open URL: https://www.google.com/search?q=makeup%20products%20online
+2026-05-17 19:20:30,746 - INFO - Opened URL in default browser: https://www.google.com/search?q=makeup%20products%20online
+2026-05-17 19:21:20,196 - INFO - Attempting to open URL: https://www.google.com/search?q=internship%20in%20linkedin
+2026-05-17 19:21:20,299 - INFO - Opened URL in default browser: https://www.google.com/search?q=internship%20in%20linkedin
+2026-05-17 19:21:52,200 - INFO - Attempting to open URL: https://www.facebook.com
+2026-05-17 19:21:52,250 - INFO - Opened URL in default browser: https://www.facebook.com
+2026-05-17 19:22:31,231 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-17 19:22:31,274 - INFO - Opened URL in default browser: https://www.instagram.com
+2026-05-17 19:25:16,035 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 19:25:16,076 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 19:26:11,676 - INFO - server closing
+2026-05-17 19:26:11,680 - INFO - server closed
+2026-05-17 19:43:15,049 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 19:43:15,050 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 19:43:20,066 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 19:43:20,066 - INFO - server listening on [::1]:8765
+2026-05-17 19:43:20,399 - INFO - connection open
+2026-05-17 19:43:25,869 - INFO - connection open
+2026-05-17 19:43:27,952 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 19:43:28,049 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 19:44:13,973 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 19:44:14,024 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 19:45:02,915 - INFO - server closing
+2026-05-17 19:45:02,918 - INFO - server closed
+2026-05-17 19:46:25,358 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 19:46:25,359 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 19:46:30,934 - INFO - server listening on [::1]:8765
+2026-05-17 19:46:30,935 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 19:46:32,050 - INFO - connection open
+2026-05-17 19:46:33,680 - INFO - connection open
+2026-05-17 19:51:26,766 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 19:51:26,899 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 19:51:42,140 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-17 19:51:42,191 - INFO - Opened URL in default browser: https://www.instagram.com
+2026-05-17 19:53:34,952 - INFO - Opening YouTube search for query: 'gaemes in the youtube'
+2026-05-17 19:53:35,001 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=gaemes%20in%20the%20youtube
+2026-05-17 19:54:06,037 - INFO - connection open
+2026-05-17 19:54:06,281 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 19:54:06,281 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 19:54:40,550 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 19:54:40,603 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 19:55:07,665 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 19:55:07,710 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 20:08:18,705 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 20:08:18,706 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 20:08:24,585 - INFO - server listening on [::1]:8765
+2026-05-17 20:08:24,589 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 20:08:24,609 - INFO - connection open
+2026-05-17 20:08:24,610 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:27,628 - INFO - connection open
+2026-05-17 20:08:27,628 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:30,643 - INFO - connection open
+2026-05-17 20:08:30,644 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:33,653 - INFO - connection open
+2026-05-17 20:08:33,654 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:36,672 - INFO - connection open
+2026-05-17 20:08:36,672 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:39,689 - INFO - connection open
+2026-05-17 20:08:39,689 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:42,698 - INFO - connection open
+2026-05-17 20:08:42,703 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:45,724 - INFO - connection open
+2026-05-17 20:08:45,724 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:48,741 - INFO - connection open
+2026-05-17 20:08:48,741 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:51,755 - INFO - connection open
+2026-05-17 20:08:51,755 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:54,760 - INFO - connection open
+2026-05-17 20:08:54,760 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:08:57,770 - INFO - connection open
+2026-05-17 20:08:57,771 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:00,784 - INFO - connection open
+2026-05-17 20:09:00,784 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:03,789 - INFO - connection open
+2026-05-17 20:09:03,790 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:06,798 - INFO - connection open
+2026-05-17 20:09:06,798 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:09,805 - INFO - connection open
+2026-05-17 20:09:09,806 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:12,817 - INFO - connection open
+2026-05-17 20:09:12,817 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:15,833 - INFO - connection open
+2026-05-17 20:09:15,833 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:18,852 - INFO - connection open
+2026-05-17 20:09:18,852 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:21,873 - INFO - connection open
+2026-05-17 20:09:21,873 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:24,899 - INFO - connection open
+2026-05-17 20:09:24,900 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:27,914 - INFO - connection open
+2026-05-17 20:09:27,914 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:32,706 - INFO - server closing
+2026-05-17 20:09:32,709 - INFO - server closed
+2026-05-17 20:09:39,119 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 20:09:39,120 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 20:09:44,101 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 20:09:44,101 - INFO - server listening on [::1]:8765
+2026-05-17 20:09:44,370 - INFO - connection open
+2026-05-17 20:09:44,373 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:47,398 - INFO - connection open
+2026-05-17 20:09:47,398 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:50,643 - INFO - connection open
+2026-05-17 20:09:50,644 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:54,643 - INFO - connection open
+2026-05-17 20:09:54,643 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:09:58,647 - INFO - connection open
+2026-05-17 20:09:58,647 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:02,638 - INFO - connection open
+2026-05-17 20:10:02,638 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:06,640 - INFO - connection open
+2026-05-17 20:10:06,641 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:10,630 - INFO - connection open
+2026-05-17 20:10:10,630 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:14,642 - INFO - connection open
+2026-05-17 20:10:14,644 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:19,020 - INFO - connection open
+2026-05-17 20:10:19,021 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:22,643 - INFO - connection open
+2026-05-17 20:10:22,644 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:26,639 - INFO - connection open
+2026-05-17 20:10:26,640 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:30,638 - INFO - connection open
+2026-05-17 20:10:30,639 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:33,653 - INFO - connection open
+2026-05-17 20:10:33,654 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:36,662 - INFO - connection open
+2026-05-17 20:10:36,664 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:39,675 - INFO - connection open
+2026-05-17 20:10:39,676 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:42,687 - INFO - connection open
+2026-05-17 20:10:42,688 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:45,701 - INFO - connection open
+2026-05-17 20:10:45,701 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:48,716 - INFO - connection open
+2026-05-17 20:10:48,717 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:51,732 - INFO - connection open
+2026-05-17 20:10:51,732 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:55,644 - INFO - connection open
+2026-05-17 20:10:55,645 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:10:59,743 - INFO - connection open
+2026-05-17 20:10:59,743 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:03,654 - INFO - connection open
+2026-05-17 20:11:03,654 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:07,633 - INFO - connection open
+2026-05-17 20:11:07,634 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:11,637 - INFO - connection open
+2026-05-17 20:11:11,638 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:15,646 - INFO - connection open
+2026-05-17 20:11:15,647 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:19,639 - INFO - connection open
+2026-05-17 20:11:19,640 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:23,638 - INFO - connection open
+2026-05-17 20:11:23,639 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:27,639 - INFO - connection open
+2026-05-17 20:11:27,640 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:31,640 - INFO - connection open
+2026-05-17 20:11:31,641 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:35,637 - INFO - connection open
+2026-05-17 20:11:35,638 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:39,642 - INFO - connection open
+2026-05-17 20:11:39,643 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:43,639 - INFO - connection open
+2026-05-17 20:11:43,639 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:47,634 - INFO - connection open
+2026-05-17 20:11:47,635 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:51,637 - INFO - connection open
+2026-05-17 20:11:51,637 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:55,643 - INFO - connection open
+2026-05-17 20:11:55,644 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:11:59,636 - INFO - connection open
+2026-05-17 20:11:59,637 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    CONNECTED_CLIENTS.add(websocket)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:12:03,632 - INFO - connection open
+2026-05-17 20:12:03,633 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+  File "C:\VS code\Antigravity\Agent1\edith\execution\orb_server.py", line 22, in message_handler
+    elif msg_type == "state" and content == "speaking":
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'CONNECTED_CLIENTS' is not defined
+2026-05-17 20:12:04,847 - INFO - server closing
+2026-05-17 20:12:04,848 - INFO - server closed
+2026-05-17 20:12:11,653 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 20:12:11,653 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 20:12:16,755 - INFO - server listening on [::1]:8765
+2026-05-17 20:12:16,755 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 20:12:16,885 - INFO - connection open
+2026-05-17 20:12:19,989 - INFO - connection open
+2026-05-17 20:12:23,083 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 20:12:23,184 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 20:12:36,916 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-17 20:12:36,982 - INFO - Opened URL in default browser: https://www.instagram.com
+2026-05-17 20:13:05,527 - INFO - server closing
+2026-05-17 20:13:05,528 - INFO - server closed
+2026-05-17 21:07:32,241 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 21:07:32,242 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 21:07:37,374 - INFO - server listening on [::1]:8765
+2026-05-17 21:07:37,375 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 21:07:37,501 - INFO - connection open
+2026-05-17 21:07:49,586 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:07:49,684 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:08:20,625 - INFO - Attempting to open URL: https://www.linkedin.com
+2026-05-17 21:08:20,665 - INFO - Opened URL in default browser: https://www.linkedin.com
+2026-05-17 21:13:37,251 - INFO - server closing
+2026-05-17 21:13:37,255 - INFO - server closed
+2026-05-17 21:13:53,903 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 21:13:53,904 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 21:13:59,452 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 21:13:59,452 - INFO - server listening on [::1]:8765
+2026-05-17 21:13:59,665 - INFO - connection open
+2026-05-17 21:14:16,927 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:14:19,278 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:14:19,380 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:14:30,688 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:14:57,987 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:15:00,240 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:15:00,285 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:15:46,624 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:15:50,252 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 21:15:50,411 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 21:15:50,733 - INFO - connection open
+2026-05-17 21:16:16,121 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:16:18,594 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:16:18,639 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:17:03,224 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:17:06,794 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 21:17:06,952 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 21:17:07,300 - INFO - connection open
+2026-05-17 21:17:41,433 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:17:43,887 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:17:43,936 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:18:08,065 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:18:11,835 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 21:18:11,989 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 21:18:12,365 - INFO - connection open
+2026-05-17 21:18:52,024 - INFO - server closing
+2026-05-17 21:18:52,029 - INFO - server closed
+2026-05-17 21:19:47,986 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 21:19:47,986 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 21:19:53,818 - INFO - server listening on [::1]:8765
+2026-05-17 21:19:53,818 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 21:19:53,834 - INFO - connection open
+2026-05-17 21:19:55,715 - INFO - connection open
+2026-05-17 21:20:07,965 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:20:11,665 - INFO - Attempting to open URL: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 21:20:11,897 - INFO - Opened URL in default browser: file:///C:/VS code/Antigravity/Agent1/edith/edith_ui_ironman.html
+2026-05-17 21:20:12,359 - INFO - connection open
+2026-05-17 21:20:26,876 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:20:29,179 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:20:29,278 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:21:13,712 - INFO - server closing
+2026-05-17 21:21:13,720 - INFO - server closed
+2026-05-17 21:26:56,364 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 21:26:56,365 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 21:27:01,763 - INFO - server listening on [::1]:8765
+2026-05-17 21:27:01,763 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 21:27:01,813 - INFO - connection open
+2026-05-17 21:27:02,051 - INFO - connection open
+2026-05-17 21:27:34,123 - INFO - Retrying request to /openai/v1/chat/completions in 0.476824 seconds
+2026-05-17 21:27:46,177 - INFO - Retrying request to /openai/v1/chat/completions in 0.817924 seconds
+2026-05-17 21:27:51,886 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:27:54,485 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:27:54,562 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:28:11,515 - INFO - Retrying request to /openai/v1/chat/completions in 0.486989 seconds
+2026-05-17 21:28:17,430 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:28:19,696 - INFO - Attempting to open URL: https://www.facebook.com
+2026-05-17 21:28:19,751 - INFO - Opened URL in default browser: https://www.facebook.com
+2026-05-17 21:28:48,056 - INFO - server closing
+2026-05-17 21:28:48,060 - INFO - server closed
+2026-05-17 21:31:10,586 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 21:31:10,587 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 21:31:15,692 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 21:31:15,693 - INFO - server listening on [::1]:8765
+2026-05-17 21:31:15,831 - INFO - connection open
+2026-05-17 21:31:19,170 - INFO - connection open
+2026-05-17 21:31:59,941 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:32:02,329 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:32:02,444 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:32:38,812 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:32:38,840 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:32:38,922 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:33:13,127 - INFO - Retrying request to /openai/v1/chat/completions in 0.412926 seconds
+2026-05-17 21:33:13,965 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:33:27,219 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:34:02,093 - INFO - server closing
+2026-05-17 21:34:02,095 - INFO - server closed
+2026-05-17 21:35:29,136 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 21:35:29,146 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 21:35:34,430 - INFO - server listening on [::1]:8765
+2026-05-17 21:35:34,431 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 21:35:34,534 - INFO - connection open
+2026-05-17 21:36:18,274 - INFO - server closing
+2026-05-17 21:36:18,277 - INFO - server closed
+2026-05-17 21:37:18,395 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 21:37:18,396 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 21:37:23,576 - INFO - server listening on [::1]:8765
+2026-05-17 21:37:23,576 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 21:37:23,646 - INFO - connection open
+2026-05-17 21:37:37,614 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:37:39,973 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:37:40,113 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:38:38,230 - INFO - Retrying request to /openai/v1/chat/completions in 0.473854 seconds
+2026-05-17 21:38:39,334 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:38:41,833 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:38:41,893 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:39:53,840 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:40:02,533 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:40:05,033 - INFO - Attempting to open URL: https://www.facebook.com
+2026-05-17 21:40:05,097 - INFO - Opened URL in default browser: https://www.facebook.com
+2026-05-17 21:42:29,227 - INFO - server closing
+2026-05-17 21:42:29,232 - INFO - server closed
+2026-05-17 21:44:23,408 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 21:44:23,408 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 21:44:28,603 - INFO - server listening on [::1]:8765
+2026-05-17 21:44:28,603 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 21:44:30,382 - INFO - connection open
+2026-05-17 21:45:19,435 - INFO - Retrying request to /openai/v1/chat/completions in 0.398427 seconds
+2026-05-17 21:45:20,465 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:45:21,225 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:45:21,244 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:45:21,338 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:45:22,899 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:45:22,939 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:46:17,780 - INFO - server closing
+2026-05-17 21:46:17,784 - INFO - server closed
+2026-05-17 21:46:59,572 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\Agent1\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-17 21:46:59,573 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\Agent1\edith\venv\Lib\site-packages\comtypes\gen'
+2026-05-17 21:47:04,729 - INFO - server listening on [::1]:8765
+2026-05-17 21:47:04,729 - INFO - server listening on 127.0.0.1:8765
+2026-05-17 21:47:04,979 - INFO - connection open
+2026-05-17 21:47:05,066 - INFO - connection open
+2026-05-17 21:47:51,328 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:47:53,702 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:47:53,821 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:47:59,444 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:48:08,788 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:48:14,806 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:48:17,276 - INFO - Attempting to open URL: https://www.linkedin.com
+2026-05-17 21:48:17,346 - INFO - Opened URL in default browser: https://www.linkedin.com
+2026-05-17 21:48:20,417 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:48:26,497 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:48:28,866 - INFO - Attempting to open URL: https://www.github.com
+2026-05-17 21:48:28,912 - INFO - Opened URL in default browser: https://www.github.com
+2026-05-17 21:48:32,637 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:48:35,120 - INFO - Attempting to open URL: https://www.facebook.com
+2026-05-17 21:48:35,155 - INFO - Opened URL in default browser: https://www.facebook.com
+2026-05-17 21:48:40,023 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:48:50,114 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:49:21,172 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:49:23,515 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:49:23,604 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:49:26,568 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:49:29,139 - INFO - Attempting to open URL: https://www.instagram.com
+2026-05-17 21:49:29,189 - INFO - Opened URL in default browser: https://www.instagram.com
+2026-05-17 21:49:34,643 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:49:42,392 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:49:45,160 - INFO - Opening YouTube search for query: 'games'
+2026-05-17 21:49:45,201 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=games
+2026-05-17 21:49:49,777 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:49:56,132 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:50:02,850 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:50:06,246 - INFO - Attempting to open URL: https://www.google.com/search?q=ai%20research%20paper
+2026-05-17 21:50:06,319 - INFO - Opened URL in default browser: https://www.google.com/search?q=ai%20research%20paper
+2026-05-17 21:50:21,469 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:50:24,360 - INFO - Attempting to open URL: https://www.chat gpt.com
+2026-05-17 21:50:24,418 - INFO - Opened URL in default browser: https://www.chat gpt.com
+2026-05-17 21:51:01,927 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:51:04,256 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:51:04,319 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:51:07,541 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:51:13,774 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:51:27,169 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:51:29,666 - INFO - Attempting to open URL: https://www.facebook.com
+2026-05-17 21:51:29,720 - INFO - Opened URL in default browser: https://www.facebook.com
+2026-05-17 21:51:35,330 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:51:40,568 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:51:50,849 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:51:54,853 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:52:06,394 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:52:19,813 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:52:22,508 - INFO - Attempting to open URL: https://www.google.com/search?q=ab
+2026-05-17 21:52:22,575 - INFO - Opened URL in default browser: https://www.google.com/search?q=ab
+2026-05-17 21:52:28,909 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:52:32,854 - INFO - Attempting to open URL: https://www.google.com/search?q=kya%20karunga%20yah%20karta%20rahega
+2026-05-17 21:52:32,911 - INFO - Opened URL in default browser: https://www.google.com/search?q=kya%20karunga%20yah%20karta%20rahega
+2026-05-17 21:52:37,369 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:52:39,693 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:52:39,774 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:52:43,681 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:52:53,499 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:52:55,936 - INFO - Attempting to open URL: https://www.google.com/search?q=yah
+2026-05-17 21:52:56,020 - INFO - Opened URL in default browser: https://www.google.com/search?q=yah
+2026-05-17 21:53:02,111 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:53:24,862 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:53:36,590 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:53:46,958 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:53:53,138 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:54:03,326 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:54:05,829 - INFO - Attempting to open URL: https://www.facebook.com
+2026-05-17 21:54:05,916 - INFO - Opened URL in default browser: https://www.facebook.com
+2026-05-17 21:54:10,513 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:54:12,980 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:54:13,040 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:54:18,711 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:54:21,501 - INFO - Opening YouTube search for query: 'games'
+2026-05-17 21:54:21,558 - INFO - Successfully opened YouTube search: https://www.youtube.com/results?search_query=games
+2026-05-17 21:54:27,498 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:54:30,537 - INFO - Attempting to open URL: https://www.google.com/search?q=for%20a%20research
+2026-05-17 21:54:30,607 - INFO - Opened URL in default browser: https://www.google.com/search?q=for%20a%20research
+2026-05-17 21:55:57,569 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:55:59,948 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:56:00,022 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:56:31,825 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:56:34,156 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:56:34,198 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:56:39,916 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:56:41,906 - INFO - Attempting to open URL: https://www.youtube.com
+2026-05-17 21:56:41,967 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-05-17 21:56:49,612 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:56:52,912 - INFO - Attempting to open URL: https://www.google.com/search?q=ai%20research%20paper
+2026-05-17 21:56:52,964 - INFO - Opened URL in default browser: https://www.google.com/search?q=ai%20research%20paper
+2026-05-17 21:57:11,716 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:57:24,167 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:57:33,762 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:57:41,484 - INFO - server closing
+2026-05-17 21:57:41,486 - INFO - server closed

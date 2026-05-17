@@ -1,0 +1,4 @@
+- Goal: listen continuously for wake word "Hey Edith"
+- Steps: mic input → keyword match → transcribe command → route to correct planning doc
+- Edge cases: background noise, partial wake word, silence timeout
+- Tool: SpeechRecognition + pyttsx3 for voice reply

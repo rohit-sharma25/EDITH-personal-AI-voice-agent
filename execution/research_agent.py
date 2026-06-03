@@ -1,4 +1,7 @@
+import glob
+import json
 import os
+import re
 import time
 import datetime
 import urllib.parse
@@ -9,6 +12,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 
 from execution.voice_engine import speak
+from execution.logger import log_error, log_info
 
 # Load environment variables
 load_dotenv()
@@ -19,13 +23,6 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Configure Gemini (replacing OpenAI per previous instructions)
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
-
-def log_error_to_history(error_msg: str):
-    """Logs errors to history.md in the root directory."""
-    history_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "history.md")
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(history_path, "a", encoding="utf-8") as f:
-        f.write(f"\n- **[ERROR] {timestamp}**: {error_msg}\n")
 
 def scrape_with_api(query: str) -> list[dict]:
     """
@@ -41,10 +38,10 @@ def scrape_with_api(query: str) -> list[dict]:
     if not SCRAPING_API_KEY:
         error = "SCRAPING_API_KEY is not set in .env. Cannot proxy search request."
         print(f"Error: {error}")
-        log_error_to_history(error)
+        log_error("ResearchAgent", error)
         return []
         
-    print(f"Scraping Google search for: '{query}' via API...")
+    log_info("ResearchAgent", "Scraping search query", query)
     
     google_url = f"https://www.google.com/search?q={urllib.parse.quote(query)}"
     # Standard ScraperAPI endpoint formatting
@@ -88,7 +85,7 @@ def scrape_with_api(query: str) -> list[dict]:
     except Exception as e:
         error = f"Failed to scrape with API for '{query}': {e}"
         print(error)
-        log_error_to_history(error)
+        log_error("ResearchAgent", error, e)
         return []
 
 def research_and_summarise(query: str) -> str:
@@ -102,18 +99,31 @@ def research_and_summarise(query: str) -> str:
     Returns:
         str: A summary string ready to be spoken.
     """
-    print(f"Starting research and summary for: '{query}'")
+    log_info("ResearchAgent", "Starting research and summary", query)
     
     results = scrape_with_api(query)
     
-    if not results:
-        return f"I couldn't find any results for {query}."
-        
+    internal_matches = search_internal_context(query)
+    local_context = ""
+    if internal_matches:
+        local_context = "Internal EDITH context matches:\n"
+        for match in internal_matches:
+            local_context += f"File: {match['file']}\nSnippet: {match['snippet']}\n\n"
+
+    if not results and not internal_matches:
+        return f"I couldn't find any external or internal information for {query}."
+
     if not GEMINI_API_KEY:
-        error = "GEMINI_API_KEY is not set in .env. Cannot summarise."
-        print(error)
-        log_error_to_history(error)
-        return "I found results, but my AI summariser is not configured yet."
+        summary_parts = []
+        if internal_matches:
+            summary_parts.append("I found some internal EDITH notes and logs relevant to that question:")
+            for match in internal_matches:
+                summary_parts.append(f"From {match['file']}: {match['snippet']}")
+        if results:
+            summary_parts.append("I also found these web search snippets:")
+            for res in results[:3]:
+                summary_parts.append(f"{res['title']}: {res['snippet']} ({res['url']})")
+        return "\n".join(summary_parts)
         
     # Format the scraped results for the LLM
     context = ""
@@ -121,10 +131,14 @@ def research_and_summarise(query: str) -> str:
         context += f"Result {i}:\nTitle: {res['title']}\nSnippet: {res['snippet']}\nURL: {res['url']}\n\n"
         
     prompt = (
-        f"Summarise these search results about '{query}' in 3 clear, concise bullet points "
-        f"for a voice assistant response. Make it conversational and easy to listen to.\n\n"
-        f"Search Results:\n{context}"
+        f"You are EDITH, an intelligent assistant. Answer the user's question in a concise, spoken style. "
+        f"If internal EDITH documents or logs are relevant, mention that you're using them as a source. "
+        f"Include a short summary with 2 or 3 clear points and keep it natural.\n\n"
+        f"Question: {query}\n\n"
     )
+    if local_context:
+        prompt += f"{local_context}\n"
+    prompt += f"Search Results:\n{context}"
     
     try:
         # Using Gemini instead of OpenAI GPT-3.5 as requested previously
@@ -140,8 +154,58 @@ def research_and_summarise(query: str) -> str:
     except Exception as e:
         error = f"Gemini API summarisation failed for '{query}': {e}"
         print(error)
-        log_error_to_history(error)
+        log_error("ResearchAgent", error, e)
         return "I encountered an error while trying to summarise the research."
+
+def search_internal_context(query: str, max_results: int = 3) -> list[dict]:
+    """Search EDITH local files for relevant internal context."""
+    root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    query_lower = query.lower()
+    terms = [term for term in re.split(r"\W+", query_lower) if term]
+    if not terms:
+        return []
+
+    candidate_files = [
+        os.path.join(root_dir, "history.md"),
+        os.path.join(root_dir, "scratch", "browser_log.txt")
+    ]
+    candidate_files.extend(glob.glob(os.path.join(root_dir, "planning", "*.md")))
+    candidate_files.extend(glob.glob(os.path.join(root_dir, "config", "*.json")))
+
+    matches = []
+    for path in candidate_files:
+        try:
+            with open(path, "r", encoding="utf-8", errors="ignore") as f:
+                content = f.read()
+        except Exception:
+            continue
+
+        content_lower = content.lower()
+        score = sum(1 for term in terms if term in content_lower)
+        if score == 0:
+            continue
+
+        snippet = ""
+        for term in terms:
+            idx = content_lower.find(term)
+            if idx >= 0:
+                start = max(0, idx - 80)
+                end = min(len(content), idx + 220)
+                snippet = content[start:end].replace("\n", " ").strip()
+                break
+
+        if not snippet:
+            snippet = content[:300].replace("\n", " ").strip()
+
+        matches.append({
+            "file": os.path.relpath(path, root_dir),
+            "score": score,
+            "snippet": snippet
+        })
+
+    matches.sort(key=lambda item: item["score"], reverse=True)
+    return matches[:max_results]
+
 
 def _run_research_task(topic: str):
     """Internal task runner called automatically by the schedule library."""
@@ -160,8 +224,9 @@ def _run_research_task(topic: str):
             f.write(f"Date: {date_str}\n\n")
             f.write(summary)
         print(f"Saved research log to: {log_path}")
+        log_info("ResearchAgent", "Saved research log", f"topic={topic}; file={log_file}")
     except Exception as e:
-        log_error_to_history(f"Failed to save research log for {topic}: {e}")
+        log_error("ResearchAgent", f"Failed to save research log for {topic}", e)
         
     # Speak the summary aloud using pyttsx3
     speak(f"I have a research update on {topic}.")

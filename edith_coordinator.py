@@ -4,19 +4,12 @@ import datetime
 from execution.voice_engine import listen_continuously, speak
 from execution.browser_control import open_url, youtube_top_result_url
 from execution.research_agent import research_and_summarise, timed_research_loop
+from execution.logger import log_info, log_error
+
 
 def log_error_to_history(component: str, issue: str, resolution: str, insight: str):
     """Appends an error log to history.md in the required format."""
-    history_path = os.path.join(os.path.dirname(__file__), "history.md")
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d")
-    log_line = f"\n{timestamp} | {component} | {issue} | {resolution} | {insight}"
-    
-    try:
-        with open(history_path, "a", encoding="utf-8") as f:
-            f.write(log_line)
-        print(f"[Logged to history.md] {issue}")
-    except Exception as e:
-        print(f"Failed to write to history.md: {e}")
+    log_error(component, issue, details=f"{resolution}; {insight}")
 
 def read_planning_doc(command_type: str):
     """Reads the correct planning document into memory based on command type."""
@@ -32,16 +25,16 @@ def read_planning_doc(command_type: str):
         try:
             with open(filepath, "r", encoding="utf-8") as f:
                 content = f.read()
-                print(f"[Coordinator] Context loaded: {filename} ({len(content)} characters)")
+                log_info("Coordinator", f"Loaded planning document: {filename}", f"len={len(content)}")
         except Exception as e:
-            print(f"[Coordinator] Warning: Could not read {filename} - {e}")
+            log_error("Coordinator", f"Could not read planning doc {filename}", e)
 
 def execute_intent(command_dict):
     """Routes the intent to the correct execution function."""
     intent = command_dict.get("intent", "").lower()
     command_type = command_dict.get("command_type", "unknown")
     
-    print(f"\n>>> Processing Intent: '{intent}' [{command_type}]")
+    log_info("Coordinator", "Processing intent", f"intent={intent}; type={command_type}")
     
     # 2. Read the appropriate planning doc
     read_planning_doc(command_type)

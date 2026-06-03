@@ -1,0 +1,90 @@
+{
+  "KNOWN_SITES": {
+    "youtube": "https://www.youtube.com",
+    "google": "https://www.google.com",
+    "linkedin": "https://www.linkedin.com",
+    "instagram": "https://www.instagram.com",
+    "facebook": "https://www.facebook.com",
+    "github": "https://www.github.com",
+    "twitter": "https://www.x.com",
+    "x": "https://www.x.com"
+  },
+  "KNOWN_APPS": {
+    "vs code": [
+      "%LOCALAPPDATA%\\Programs\\Microsoft VS Code\\Code.exe",
+      "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+      "C:\\Program Files (x86)\\Microsoft VS Code\\Code.exe"
+    ],
+    "visual studio code": [
+      "%LOCALAPPDATA%\\Programs\\Microsoft VS Code\\Code.exe",
+      "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+      "C:\\Program Files (x86)\\Microsoft VS Code\\Code.exe"
+    ],
+    "telegram": [
+      "C:\\Program Files\\Telegram Desktop\\Telegram.exe",
+      "%APPDATA%\\Telegram Desktop\\Telegram.exe"
+    ],
+    "discord": [
+      "C:\\Program Files\\Discord\\Update.exe",
+      "%LOCALAPPDATA%\\Discord\\Update.exe"
+    ],
+    "spotify": [
+      "%APPDATA%\\Spotify\\Spotify.exe",
+      "C:\\Program Files\\Spotify\\Spotify.exe"
+    ],
+    "notepad": ["notepad.exe"],
+    "calculator": ["calc.exe"],
+    "terminal": ["wt.exe"],
+    "cmd": ["cmd.exe"],
+    "command prompt": ["cmd.exe"],
+    "explorer": ["explorer.exe"],
+    "file explorer": ["explorer.exe"],
+    "vlc": ["C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"],
+    "steam": ["C:\\Program Files (x86)\\Steam\\steam.exe"],
+    "obs": ["C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe"],
+    "zoom": ["%APPDATA%\\Zoom\\bin\\Zoom.exe"],
+    "whatsapp": ["%APPDATA%\\WhatsApp\\WhatsApp.exe"],
+    "slack": ["%APPDATA%\\Slack\\slack.exe"],
+    "teams": ["%LOCALAPPDATA%\\Microsoft\\Teams\\Update.exe"],
+    "microsoft teams": ["%LOCALAPPDATA%\\Microsoft\\Teams\\Update.exe"],
+    "antigravity": ["python", "..\\main.py"],
+    "brave": [
+      "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+      "%LOCALAPPDATA%\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
+    ],
+    "chrome": [
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    ],
+    "hud": ["..\\edith_ui.html"]
+  },
+  "APP_PROCESS_NAMES": {
+    "vs code": "Code",
+    "visual studio code": "Code",
+    "telegram": "Telegram",
+    "discord": "Discord",
+    "spotify": "Spotify",
+    "notepad": "notepad",
+    "calculator": "Calculator",
+    "terminal": "WindowsTerminal",
+    "cmd": "cmd",
+    "command prompt": "cmd",
+    "explorer": "explorer",
+    "file explorer": "explorer",
+    "vlc": "vlc",
+    "steam": "steam",
+    "obs": "obs64",
+    "zoom": "Zoom",
+    "whatsapp": "WhatsApp",
+    "slack": "slack",
+    "teams": "Teams",
+    "microsoft teams": "Teams",
+    "antigravity": "python",
+    "chrome": "chrome",
+    "brave": "brave",
+    "browser": "brave",
+    "firefox": "firefox",
+    "edge": "msedge",
+    "hud": "msedge"
+  }
+}

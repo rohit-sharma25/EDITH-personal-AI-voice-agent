@@ -75,3 +75,36 @@
 2026-06-03 08:47:58 | INFO | Executor | Execute single action | open youtube
 2026-06-03 08:48:00 | INFO | Executor | open_known_site | target=youtube; result=https://www.youtube.com
 2026-06-03 08:48:00 | INFO | Executor | fallback_action | target=open youtube; result=True
+2026-07-06 11:09:29 | INFO | Executor | Falling back to simple action execution | open youtube
+2026-07-06 11:09:29 | INFO | Executor | Execute single action | open youtube
+2026-07-06 11:09:33 | INFO | Executor | open_known_site | target=youtube; result=https://www.youtube.com
+2026-07-06 11:09:33 | INFO | Executor | fallback_action | target=open youtube; result=True
+2026-07-06 11:09:45 | INFO | Executor | Falling back to simple action execution | open youtube
+2026-07-06 11:09:45 | INFO | Executor | Execute single action | open youtube
+2026-07-06 11:09:47 | INFO | Executor | open_known_site | target=youtube; result=https://www.youtube.com
+2026-07-06 11:09:47 | INFO | Executor | fallback_action | target=open youtube; result=True
+2026-07-06 11:10:10 | INFO | Executor | Falling back to simple action execution | open google chrome
+2026-07-06 11:10:10 | INFO | Executor | Execute single action | open google chrome
+2026-07-06 11:10:10 | INFO | Executor | Open app requested | app=google chrome
+2026-07-06 11:10:14 | ERROR | Executor | Unknown app request: google chrome
+2026-07-06 11:10:14 | INFO | Executor | fallback_action | target=open google chrome; result=False
+2026-07-06 11:10:21 | INFO | Executor | Falling back to simple action execution | open chrome
+2026-07-06 11:10:21 | INFO | Executor | Execute single action | open chrome
+2026-07-06 11:10:21 | INFO | Executor | Open app requested | app=chrome
+2026-07-06 11:10:24 | INFO | Executor | launch_app | target=chrome; result=success
+2026-07-06 11:10:24 | INFO | Executor | fallback_action | target=open chrome; result=True
+2026-07-06 11:10:28 | INFO | Executor | Falling back to simple action execution | open vs
+2026-07-06 11:10:28 | INFO | Executor | Execute single action | open vs
+2026-07-06 11:10:28 | INFO | Executor | Open app requested | app=vs
+2026-07-06 11:10:32 | ERROR | Executor | Unknown app request: vs
+2026-07-06 11:10:32 | INFO | Executor | fallback_action | target=open vs; result=False
+2026-07-06 11:10:38 | INFO | Executor | Falling back to simple action execution | open camera
+2026-07-06 11:10:38 | INFO | Executor | Execute single action | open camera
+2026-07-06 11:10:38 | INFO | Executor | Open app requested | app=camera
+2026-07-06 11:10:42 | ERROR | Executor | Unknown app request: camera
+2026-07-06 11:10:42 | INFO | Executor | fallback_action | target=open camera; result=False
+2026-07-06 11:10:51 | INFO | Executor | Falling back to simple action execution | open tele
+2026-07-06 11:10:51 | INFO | Executor | Execute single action | open tele
+2026-07-06 11:10:51 | INFO | Executor | Open app requested | app=tele
+2026-07-06 11:10:55 | ERROR | Executor | Unknown app request: tele
+2026-07-06 11:10:55 | INFO | Executor | fallback_action | target=open tele; result=False

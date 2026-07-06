@@ -1643,3 +1643,21 @@ AssertionError
 2026-06-03 21:18:22,584 - INFO - connection open
 2026-06-03 21:21:58,896 - INFO - server closing
 2026-06-03 21:21:58,911 - INFO - server closed
+2026-07-06 11:08:45,413 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\EDITH\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-06 11:08:45,413 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\comtypes\gen'
+2026-07-06 11:08:54,400 - INFO - server listening on [::1]:8765
+2026-07-06 11:08:54,400 - INFO - server listening on 127.0.0.1:8765
+2026-07-06 11:08:54,493 - INFO - connection open
+2026-07-06 11:09:29,129 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-06 11:09:32,720 - INFO - Attempting to open URL: https://www.youtube.com
+2026-07-06 11:09:32,968 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-07-06 11:09:45,127 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-06 11:09:47,782 - INFO - Attempting to open URL: https://www.youtube.com
+2026-07-06 11:09:47,899 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-07-06 11:10:10,796 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-06 11:10:21,446 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-06 11:10:28,614 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-06 11:10:38,923 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-06 11:10:51,620 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-06 11:11:23,897 - INFO - server closing
+2026-07-06 11:11:23,897 - INFO - server closed

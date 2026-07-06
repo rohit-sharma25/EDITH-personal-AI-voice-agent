@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.D.I.T.H. | J.A.R.V.I.S. Core</title>
+    <style>
+        :root {
+            --bg: #000000;
+            --navy: #061426;
+            --cyan: #1bfeff;
+            --gold: #ffd764;
+            --violet: #a65bff;
+            --green: #6cff9d;
+            --pink: #ff80df;
+            --red: #ff5a73;
+            --white-soft: #eef5ff;
+            --panel-glow: rgba(0, 220, 255, 0.16);
+            --panel-dark: rgba(4, 12, 22, 0.92);
+            --panel-border: rgba(0, 190, 255, 0.14);
+
+            --state-color: var(--cyan);
+            --spin-speed: 18s;
+            --pulse-speed: 4s;
+            --reactor-scale: 1;
+        }
+
+        body[data-state="idle"] {
+            --state-color: var(--gold);
+            --spin-speed: 28s;
+            --pulse-speed: 4s;
+            --reactor-scale: 1;
+        }
+
+        body[data-state="listening"] {
+            --state-color: var(--cyan);
+            --spin-speed: 10s;
+            --pulse-speed: 1.5s;
+            --reactor-scale: 1.02;
+        }
+
+        body[data-state="thinking"] {
+            --state-color: var(--violet);
+            --spin-speed: 4s;
+            --pulse-speed: 0.8s;
+            --reactor-scale: 1.05;
+        }
+
+        body[data-state="speaking"] {
+            --state-color: var(--cyan);
+            --spin-speed: 15s;
+            --pulse-speed: 0.5s;
+            --reactor-scale: 1.02;
+        }
+
+        body[data-state="complete"] {
+            --state-color: var(--green);
+            --spin-speed: 12s;
+            --pulse-speed: 2s;
+            --reactor-scale: 1;
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 15%, rgba(12, 220, 255, 0.08), transparent 18%),
+                        radial-gradient(circle at 85% 10%, rgba(120, 80, 255, 0.04), transparent 12%),
+                        linear-gradient(180deg, #000000 0%, #02080f 24%, #051426 55%, #020a14 100%);
+            color: var(--white-soft);
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            overflow: hidden;
+            display: flex;
+        }
+
+        /* --- BACKGROUND HUD ELEMENTS --- */
+        .hud-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            background:
+                radial-gradient(circle at center, rgba(0, 180, 255, 0.08), transparent 22%),
+                radial-gradient(circle at 15% 20%, rgba(12, 38, 84, 0.22), transparent 12%),
+                linear-gradient(rgba(0, 140, 220, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 140, 220, 0.05) 1px, transparent 1px);
+            background-size: 100% 100%, 260px 260px, 40px 40px, 40px 40px;
+        }
+
+        .hud-corner {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgba(0, 130, 170, 0.20);
+        }
+
+        .corner-tl {
+            top: 20px;
+            left: 20px;
+            border-right: none;
+            border-bottom: none;
+        }
+
+        .corner-tr {
+            top: 20px;
+            right: 20px;
+            border-left: none;
+            border-bottom: none;
+        }
+
+        .corner-bl {
+            bottom: 20px;
+            left: 20px;
+            border-right: none;
+            border-top: none;
+        }
+
+        .corner-br {
+            bottom: 20px;
+            right: 20px;
+            border-left: none;
+            border-top: none;
+        }
+
+        .hud-scanline {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: rgba(0, 140, 190, 0.08);
+            box-shadow: 0 0 8px rgba(0, 140, 190, 0.12);
+            animation: scan 8s linear infinite;
+        }
+
+        .hud-grid {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+            background-image: linear-gradient(rgba(106, 240, 255, 0.05) 1px, transparent 1px),
+                               linear-gradient(90deg, rgba(106, 240, 255, 0.05) 1px, transparent 1px);
+            background-size: 70px 70px;
+            opacity: 0.45;
+        }
+
+        .hud-scan-beam {
+            position: absolute;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            height: 120%;
+            background: linear-gradient(180deg, transparent 0%, rgba(106, 240, 255, 0.04) 42%, rgba(106, 240, 255, 0.12) 50%, rgba(106, 240, 255, 0.04) 58%, transparent 100%);
+            animation: scanBeam 9s linear infinite;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        @keyframes scanBeam {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
+
+        .live-indicator {
+            position: absolute;
+            top: 30px;
+            left: 32px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            z-index: 2;
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            color: rgba(106, 240, 255, 0.85);
+        }
+
+        .live-indicator span {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .live-indicator .live-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(106, 240, 255, 0.95);
+            box-shadow: 0 0 12px rgba(106, 240, 255, 0.32);
+            animation: pulseDot 1.5s ease-in-out infinite;
+        }
+
+        .live-indicator .live-dot:nth-child(2) { animation-delay: 0.2s; }
+        .live-indicator .live-dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes pulseDot {
+            0%, 100% { transform: scale(0.85); opacity: 0.75; }
+            50% { transform: scale(1.2); opacity: 1; }
+        }
+
+        @keyframes scan {
+            0% {
+                top: -10%;
+            }
+
+            100% {
+                top: 110%;
+            }
+        }
+
+        .hud-text {
+            position: absolute;
+            font-size: 9px;
+            color: rgba(106, 240, 255, 0.55);
+            letter-spacing: 0.18em;
+            text-shadow: 0 0 14px rgba(106, 240, 255, 0.18);
+        }
+
+        .text-tl {
+            top: 30px;
+            left: 35px;
+        }
+
+        .text-br {
+            bottom: 30px;
+            right: 35px;
+            text-align: right;
+        }
+
+        /* --- LAYOUT --- */
+        #app-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            z-index: 1;
+            position: relative;
+        }
+
+        #center-zone {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }

@@ -1668,3 +1668,8 @@ AssertionError
 2026-07-15 21:26:46,113 - INFO - connection open
 2026-07-15 21:30:48,729 - INFO - server closing
 2026-07-15 21:30:48,732 - INFO - server closed
+2026-07-15 21:30:54,833 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\EDITH\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 21:30:54,833 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\comtypes\gen'
+2026-07-15 21:31:00,442 - INFO - server listening on 127.0.0.1:8765
+2026-07-15 21:31:00,442 - INFO - server listening on [::1]:8765
+2026-07-15 21:31:00,633 - INFO - connection open

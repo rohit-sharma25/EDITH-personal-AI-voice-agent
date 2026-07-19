@@ -108,3 +108,33 @@
 2026-07-06 11:10:51 | INFO | Executor | Open app requested | app=tele
 2026-07-06 11:10:55 | ERROR | Executor | Unknown app request: tele
 2026-07-06 11:10:55 | INFO | Executor | fallback_action | target=open tele; result=False
+2026-07-19 21:07:01 | INFO | Executor | Falling back to simple action execution | open youtube
+2026-07-19 21:07:01 | INFO | Executor | Execute single action | open youtube
+2026-07-19 21:07:04 | INFO | Executor | open_known_site | target=youtube; result=https://www.youtube.com
+2026-07-19 21:07:04 | INFO | Executor | fallback_action | target=open youtube; result=True
+2026-07-19 21:07:25 | INFO | Executor | Falling back to simple action execution | open
+2026-07-19 21:07:25 | INFO | Executor | Execute single action | open
+2026-07-19 21:07:25 | INFO | Executor | fallback_action | target=open; result=None
+2026-07-19 21:07:30 | INFO | Executor | Falling back to simple action execution | open chatgpt
+2026-07-19 21:07:30 | INFO | Executor | Execute single action | open chatgpt
+2026-07-19 21:07:30 | INFO | Executor | Open app requested | app=chatgpt
+2026-07-19 21:07:33 | ERROR | Executor | Unknown app request: chatgpt
+2026-07-19 21:07:33 | INFO | Executor | fallback_action | target=open chatgpt; result=False
+2026-07-19 21:11:10 | INFO | Executor | Falling back to simple action execution | and you got the
+2026-07-19 21:11:10 | INFO | Executor | Execute single action | and you got the
+2026-07-19 21:11:10 | INFO | Executor | fallback_action | target=and you got the; result=None
+2026-07-19 21:11:52 | INFO | Executor | Fallback to research query for question-style intent | so you know what is
+2026-07-19 21:11:52 | INFO | ResearchAgent | Starting research and summary | so you know what is
+2026-07-19 21:11:52 | INFO | ResearchAgent | Scraping search query | so you know what is
+2026-07-19 21:11:52 | ERROR | ResearchAgent | Failed to scrape with API for 'so you know what is': 401 Client Error: Unauthorized for url: http://api.scraperapi.com/?api_key=6a068fd43603ba53f4e8563f&url=https%3A//www.google.com/search%3Fq%3Dso%2520you%2520know%2520what%2520is | exception=requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.scraperapi.com/?api_key=6a068fd43603ba53f4e8563f&url=https%3A//www.google.com/search%3Fq%3Dso%2520you%2520know%2520what%2520is
+2026-07-19 21:11:54 | ERROR | ResearchAgent | Gemini API summarisation failed for 'so you know what is': 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods. | exception=google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-07-19 21:12:20 | INFO | Executor | Fallback to research query for question-style intent | so tell me what we can add
+2026-07-19 21:12:20 | INFO | ResearchAgent | Starting research and summary | so tell me what we can add
+2026-07-19 21:12:20 | INFO | ResearchAgent | Scraping search query | so tell me what we can add
+2026-07-19 21:12:21 | ERROR | ResearchAgent | Failed to scrape with API for 'so tell me what we can add': 401 Client Error: Unauthorized for url: http://api.scraperapi.com/?api_key=6a068fd43603ba53f4e8563f&url=https%3A//www.google.com/search%3Fq%3Dso%2520tell%2520me%2520what%2520we%2520can%2520add | exception=requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.scraperapi.com/?api_key=6a068fd43603ba53f4e8563f&url=https%3A//www.google.com/search%3Fq%3Dso%2520tell%2520me%2520what%2520we%2520can%2520add
+2026-07-19 21:12:21 | ERROR | ResearchAgent | Gemini API summarisation failed for 'so tell me what we can add': 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods. | exception=google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+2026-07-19 | FIX | ResearchAgent | Replaced ScraperAPI with Serper.dev for search. Updated model from deprecated gemini-1.5-flash to gemini-2.0-flash. | Serper.dev returns JSON directly — no fragile HTML parsing needed. 2,500 free queries covers ~8 months at current usage.
+2026-07-19 | FIX | GroqEngine | Renamed gemini_engine.py → groq_engine.py to match actual API being used (Groq/Llama 3.1 8B, not Google Gemini). Updated all imports in executor.py. | File name was misleading — code was calling Groq but file was named gemini_engine. Clean rename.
+2026-07-19 | FIX | Config | Added missing apps to known_resources.json: google_chrome (alias for chrome), vs (alias for vs code), camera, tele (alias for telegram), chatgpt. | These were all logged as "Unknown app request" failures in history.md — now they resolve to real app paths.
+2026-07-19 | FIX | Executor | Rewrote close_website() to target specific tabs via Selenium close_browser_tab() instead of taskkill on all browser processes. Falls back to close_browser() if Selenium tab targeting fails. | Previous implementation killed all browser processes — destroys user session state. Tab-level close preserves other open tabs.
+2026-07-19 | FIX | Docs | Fixed edith-os.md header from 'edith_os.md' to 'edith-os.md' to match actual filename. | Cosmetic — filename used hyphen, header used underscore. Now consistent.

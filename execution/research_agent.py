@@ -4,9 +4,7 @@ import os
 import re
 import time
 import datetime
-import urllib.parse
 import requests
-from bs4 import BeautifulSoup
 import schedule
 import google.generativeai as genai
 from dotenv import load_dotenv
@@ -14,20 +12,23 @@ from dotenv import load_dotenv
 from execution.voice_engine import speak
 from execution.logger import log_error, log_info
 
+# OWNER: Answer questions — uses Serper.dev for web search + Gemini for summarization.
+# Called by executor.py ONLY when intent is "question". NOT used for intent parsing or app control.
+
 # Load environment variables
 load_dotenv()
 
-SCRAPING_API_KEY = os.getenv("SCRAPING_API_KEY")
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-# Configure Gemini (replacing OpenAI per previous instructions)
+# Configure Gemini
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
 
-def scrape_with_api(query: str) -> list[dict]:
+def search_web(query: str) -> list[dict]:
     """
-    Calls ScraperAPI to proxy a Google search and bypass captchas.
-    Parses the top 5 result titles, snippets, and URLs using BeautifulSoup.
+    Uses Serper.dev API to fetch Google search results as structured JSON.
+    Returns top 5 result titles, snippets, and URLs — no HTML parsing needed.
     
     Args:
         query (str): The search query.
@@ -35,62 +36,46 @@ def scrape_with_api(query: str) -> list[dict]:
     Returns:
         list[dict]: List of up to 5 dictionaries containing {title, snippet, url}
     """
-    if not SCRAPING_API_KEY:
-        error = "SCRAPING_API_KEY is not set in .env. Cannot proxy search request."
+    if not SERPER_API_KEY:
+        error = "SERPER_API_KEY is not set in .env. Cannot search."
         print(f"Error: {error}")
         log_error("ResearchAgent", error)
         return []
-        
-    log_info("ResearchAgent", "Scraping search query", query)
-    
-    google_url = f"https://www.google.com/search?q={urllib.parse.quote(query)}"
-    # Standard ScraperAPI endpoint formatting
-    api_url = f"http://api.scraperapi.com?api_key={SCRAPING_API_KEY}&url={urllib.parse.quote(google_url)}"
-    
+
+    log_info("ResearchAgent", "Searching via Serper.dev", query)
+
+    url = "https://google.serper.dev/search"
+    payload = json.dumps({"q": query})
+    headers = {
+        'X-API-KEY': SERPER_API_KEY,
+        'Content-Type': 'application/json'
+    }
+
     try:
-        response = requests.get(api_url, timeout=30)
+        response = requests.post(url, headers=headers, data=payload, timeout=15)
         response.raise_for_status()
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
+        data = response.json()
+
         results = []
-        
-        # Google search results are generally wrapped in div tags with class 'g'
-        for g in soup.find_all('div', class_='g'):
-            if len(results) >= 5:
-                break
-                
-            title_tag = g.find('h3')
-            link_tag = g.find('a')
-            
-            # Google's snippet classes change, VwiC3b is highly common for the text block
-            snippet_div = g.find('div', {'style': '-webkit-line-clamp:2'}) or g.find('div', class_='VwiC3b')
-            
-            if title_tag and link_tag:
-                title = title_tag.get_text(strip=True)
-                url = link_tag.get('href', '')
-                snippet = snippet_div.get_text(strip=True) if snippet_div else "No description available."
-                
-                if url.startswith('/'):
-                    continue  # Skip internal Google links
-                    
-                results.append({
-                    "title": title,
-                    "snippet": snippet,
-                    "url": url
-                })
-                
-        print(f"Found {len(results)} results via Scraping API.")
+        for item in data.get("organic", [])[:5]:
+            results.append({
+                "title": item.get("title", ""),
+                "snippet": item.get("snippet", ""),
+                "url": item.get("link", "")
+            })
+
+        print(f"Found {len(results)} results via Serper.dev.")
         return results
 
     except Exception as e:
-        error = f"Failed to scrape with API for '{query}': {e}"
+        error = f"Serper.dev search failed for '{query}': {e}"
         print(error)
         log_error("ResearchAgent", error, e)
         return []
 
 def research_and_summarise(query: str) -> str:
     """
-    Calls scrape_with_api() to get raw results, formats them, and passes them
+    Calls search_web() to get raw results, formats them, and passes them
     to Gemini to summarise into 3 clear bullet points for a voice response.
     
     Args:
@@ -101,7 +86,7 @@ def research_and_summarise(query: str) -> str:
     """
     log_info("ResearchAgent", "Starting research and summary", query)
     
-    results = scrape_with_api(query)
+    results = search_web(query)
     
     internal_matches = search_internal_context(query)
     local_context = ""
@@ -141,8 +126,7 @@ def research_and_summarise(query: str) -> str:
     prompt += f"Search Results:\n{context}"
     
     try:
-        # Using Gemini instead of OpenAI GPT-3.5 as requested previously
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.0-flash')
         response = model.generate_content(prompt)
         summary = response.text.strip()
         

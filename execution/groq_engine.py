@@ -3,6 +3,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# OWNER: Intent parsing — uses Groq (Llama 3.1 8B) to classify what the user wants to DO (open/close/search/question).
+# Called by executor.py on EVERY command. NOT used for answering questions or web search.
+
 class GroqEngine:
     def __init__(self):
         self.api_key = os.getenv("GROQ_API_KEY")
@@ -53,4 +56,4 @@ Only return the JSON, no markdown.
             print(f"[GroqEngine] Error getting intent: {e}")
             return None
 
-gemini_engine = GroqEngine()
+groq_engine = GroqEngine()

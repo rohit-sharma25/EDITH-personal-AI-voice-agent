@@ -2,8 +2,8 @@ import urllib.parse
 import subprocess
 import os
 from execution.voice_engine import speak
-from execution.browser_control import open_url, open_youtube_search
-from execution.gemini_engine import gemini_engine
+from execution.browser_control import open_url, open_youtube_search, close_browser_tab, close_browser
+from execution.groq_engine import groq_engine
 from execution.research_agent import research_query
 from execution.hud_server import broadcast
 from execution.config import get_known_sites, get_known_apps, get_app_process_names
@@ -100,26 +100,30 @@ def close_app(app_name):
     return False
 
 def close_website(site_name):
-    """Closes browser tabs for a specific site (closes all common browser processes)."""
+    """Closes a specific browser tab for a site using the Selenium managed browser.
+    Falls back to killing all browser processes only if Selenium is unavailable."""
     log_info("Executor", "Close website requested", f"site={site_name}")
-    browsers = ["brave", "chrome", "msedge", "firefox"]
-    success = False
-    for browser in browsers:
-        try:
-            result = subprocess.run(["taskkill", "/F", "/IM", f"{browser}.exe"], capture_output=True)
-            if result.returncode == 0:
-                success = True
-        except Exception as e:
-            log_error("Executor", f"Taskkill error closing browser {browser}", e)
-            continue
-            
-    if success:
-        speak(f"Successfully closed {site_name}")
-        log_action("Executor", "close_website", site_name, "success")
-    else:
+
+    # Strategy 1: Use Selenium to close the specific tab
+    try:
+        if close_browser_tab(site_name):
+            speak(f"Closed {site_name}")
+            log_action("Executor", "close_website_tab", site_name, "success")
+            return True
+        log_info("Executor", "Selenium tab close failed, trying fallback", site_name)
+    except Exception as e:
+        log_error("Executor", f"Selenium tab close error for {site_name}", e)
+
+    # Strategy 2: Fallback — close only the managed browser if Selenium had one open
+    try:
+        close_browser()
+        speak(f"Closed {site_name}")
+        log_action("Executor", "close_website_fallback", site_name, "success")
+        return True
+    except Exception as e:
+        log_error("Executor", f"Fallback close error for {site_name}", e)
         speak(f"Could not close {site_name}.")
-        log_error("Executor", f"Could not close website session for {site_name}")
-    return success
+        return False
 
 def execute_single_action(action_text):
     """Executes a single action."""
@@ -162,17 +166,17 @@ def execute_command(command_dict):
 
     print(f"\n[Executor] Running command: '{intent}' (Type: {command_type})")
 
-    # Use Gemini for intent parsing
-    gemini_result = gemini_engine.get_intent(intent)
-    print(f"[Executor] Gemini result: {gemini_result}")
+    # Use Groq (Llama) for intent parsing
+    groq_result = groq_engine.get_intent(intent)
+    print(f"[Executor] Groq result: {groq_result}")
 
-    if gemini_result:
-        log_info("Executor", "Gemini intent parsed", str(gemini_result))
-        print(f"[Executor] Gemini Intent: {gemini_result}")
-        g_type = gemini_result.get("type")
-        g_intent = gemini_result.get("intent")
-        g_target = gemini_result.get("target", "")
-        g_params = gemini_result.get("parameters", "")
+    if groq_result:
+        log_info("Executor", "Groq intent parsed", str(groq_result))
+        print(f"[Executor] Groq Intent: {groq_result}")
+        g_type = groq_result.get("type")
+        g_intent = groq_result.get("intent")
+        g_target = groq_result.get("target", "")
+        g_params = groq_result.get("parameters", "")
         
         if g_intent == "open":
             if g_type == "website" or "." in g_target or "com" in g_target:

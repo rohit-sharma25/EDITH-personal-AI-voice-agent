@@ -56,6 +56,27 @@
       "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
       "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
     ],
+    "google chrome": [
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    ],
+    "camera": [
+      "%LOCALAPPDATA%\\Microsoft\\Windows Camera\\Camera.exe",
+      "C:\\Program Files\\Windows Camera\\Camera.exe"
+    ],
+    "chatgpt": [
+      "%LOCALAPPDATA%\\ChatGPT\\ChatGPT.exe",
+      "C:\\Program Files\\ChatGPT\\ChatGPT.exe"
+    ],
+    "vs": [
+      "%LOCALAPPDATA%\\Programs\\Microsoft VS Code\\Code.exe",
+      "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+      "C:\\Program Files (x86)\\Microsoft VS Code\\Code.exe"
+    ],
+    "tele": [
+      "C:\\Program Files\\Telegram Desktop\\Telegram.exe",
+      "%APPDATA%\\Telegram Desktop\\Telegram.exe"
+    ],
     "hud": ["..\\edith_ui.html"]
   },
   "APP_PROCESS_NAMES": {

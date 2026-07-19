@@ -1673,3 +1673,54 @@ AssertionError
 2026-07-15 21:31:00,442 - INFO - server listening on 127.0.0.1:8765
 2026-07-15 21:31:00,442 - INFO - server listening on [::1]:8765
 2026-07-15 21:31:00,633 - INFO - connection open
+2026-07-15 21:33:05,230 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\EDITH\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 21:33:05,230 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\comtypes\gen'
+2026-07-15 21:33:11,312 - INFO - server listening on [::1]:8765
+2026-07-15 21:33:11,312 - INFO - server listening on 127.0.0.1:8765
+2026-07-15 21:33:11,368 - INFO - connection open
+2026-07-15 21:33:11,383 - INFO - connection open
+2026-07-15 21:33:11,383 - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\websockets\http11.py", line 320, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\websockets\server.py", line 547, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2026-07-19 21:05:49,959 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\VS code\\Antigravity\\EDITH\\edith\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-19 21:05:49,960 - INFO - Using writeable comtypes cache directory: 'C:\VS code\Antigravity\EDITH\edith\venv\Lib\site-packages\comtypes\gen'
+2026-07-19 21:05:55,937 - INFO - server listening on 127.0.0.1:8765
+2026-07-19 21:05:55,937 - INFO - server listening on [::1]:8765
+2026-07-19 21:05:56,052 - INFO - connection open
+2026-07-19 21:07:01,436 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-19 21:07:04,269 - INFO - Attempting to open URL: https://www.youtube.com
+2026-07-19 21:07:04,490 - INFO - Opened URL in default browser: https://www.youtube.com
+2026-07-19 21:07:25,125 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-19 21:07:30,090 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-19 21:11:10,116 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-19 21:11:52,212 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-07-19 21:12:05,377 - INFO - server closing
+2026-07-19 21:12:05,380 - INFO - server closed
+2026-07-19 21:12:20,894 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
